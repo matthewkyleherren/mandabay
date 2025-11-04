@@ -8937,7 +8937,7 @@ html.is-first-loaded .c-sticky-cta_bar {
 
 .u-bg-black {
     --tw-bg-opacity: 1;
-    background-color: rgb(0, 150, 247);
+    background-color: rgb(34 34 35 / var(--tw-bg-opacity, 1));
 }
 
 .u-bg-coral {
@@ -8981,7 +8981,7 @@ html.is-first-loaded .c-sticky-cta_bar {
 }
 .u-bg-lightblue {
     --tw-bg-opacity: 1;
-    background-color: rgb(0, 150, 247);
+    background-color: rgb(0, 150, 247 / var(--tw-bg-opacity, 1));
 }
 .u-p-4 {
     padding: 1rem;
@@ -9515,7 +9515,7 @@ html.is-first-loaded .c-sticky-cta_bar {
 }
 
 .u-modal_container {
-    background-color: rgb(0, 150, 247);
+    background-color: var(--modal-background-color, #222223);
     color: var(--modal-color, #fff);
     overflow: auto;
     transition: transform var(--transition-slow)
