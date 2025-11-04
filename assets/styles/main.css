@@ -8937,7 +8937,7 @@ html.is-first-loaded .c-sticky-cta_bar {
 
 .u-bg-black {
     --tw-bg-opacity: 1;
-    background-color: rgb(34 34 35 / var(--tw-bg-opacity, 1));
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
 .u-bg-coral {
@@ -8981,7 +8981,7 @@ html.is-first-loaded .c-sticky-cta_bar {
 }
 .u-bg-lightblue {
     --tw-bg-opacity: 1;
-    background-color: rgb(0, 150, 247 / var(--tw-bg-opacity, 1));
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 .u-p-4 {
     padding: 1rem;
@@ -9175,6 +9175,11 @@ html.is-first-loaded .c-sticky-cta_bar {
 .u-text-lavender {
     --tw-text-opacity: 1;
     color: rgb(181 183 216 / var(--tw-text-opacity, 1));
+}
+
+.u-text-orange {
+    --tw-text-opacity: 1;
+    color: rgb(255 64 0 / var(--tw-text-opacity, 1));
 }
 
 .u-text-neutral-400 {
