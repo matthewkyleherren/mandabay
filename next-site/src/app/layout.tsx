@@ -57,6 +57,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="canonical" href="/" />
+        <link rel="stylesheet" href="/assets/styles/main.css" />
+        <link rel="stylesheet" href="/mu-plugins/locomotive-cookie-consent/assets/cookie-consent%EF%B9%96ver=0.2.3.css" />
         {favicons.map((tag, index) => {
           if (tag.tagName === "link") {
             return <link key={index} {...tag.attributes} />;
